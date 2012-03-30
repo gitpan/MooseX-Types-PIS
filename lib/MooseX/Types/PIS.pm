@@ -3,7 +3,7 @@ package MooseX::Types::PIS;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use MooseX::Types -declare => ['PIS'];
 use MooseX::Types::Moose qw(Str);
@@ -23,6 +23,8 @@ subtype PIS,
 
 42;
 __END__
+=encoding utf8
+
 =head1 NAME
 
 MooseX::Types::PIS - PIS type for Moose classes
